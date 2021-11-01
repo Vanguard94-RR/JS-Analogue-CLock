@@ -1,0 +1,37 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background: url(background\ 1.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+.container {
+  margin: 100px auto;
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: bisque;
+}
+p {
+  font-size: 5em;
+  color: brown;
+}
+button {
+  color: burlywood;
+  background-color: saddlebrown;
+  border: none;
+  padding: 18px 10px;
+  font-size: 1.2em;
+  width: fit-content;
+  margin: 10px;
+  border-radius: 15%;
+}
+button:hover {
+  cursor: pointer;
+  background-color: bisque;
+  color: bisque;
+  transition: 0.5s;
+  border: none;
+}
